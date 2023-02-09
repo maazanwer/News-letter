@@ -12,11 +12,4 @@ app.listen(process.env.PORT || 3000 , function(){
 })
 
 app.get("/" , function(req,res){
-  res.sendFile(__dirname + "/signup.html")
-})
-
-
-
-
-// api key
-// df169485a9fc74e5a02240335dde9384-us17
+  res.sendFile(__dirname + "/signup.html")})
